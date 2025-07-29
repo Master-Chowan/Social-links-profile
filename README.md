@@ -24,7 +24,7 @@
 ### Links
 
 - Solution URL: https://github.com/Master-Chowan/Social-links-profile
-- Live Site URL:https://master-chowan.github.io/QR-code-component-challenge/
+- Live Site URL:https://master-chowan.github.io/Social-links-profile/
 
 ## My process
 

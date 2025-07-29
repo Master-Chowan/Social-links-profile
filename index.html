@@ -83,11 +83,12 @@
         
       }
 
-      button {
+      .card a {
         background-color: hsl(0, 0%, 20%);
-        font-family: "Inter-Bold";
+        font-family: "Inter";
         font-size: 14px;
         font-weight: 700;
+        text-align: center;
         width: 80%;
         color: hsl(0, 0%, 100%);
         border: none;
@@ -95,6 +96,12 @@
         margin: 10px;
         border-radius: 10px;
         cursor: pointer;
+      }
+
+      .card a:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 12%);
+        transition: background-color 0.3s ease;
       }
 
       .attribution {
@@ -114,11 +121,11 @@
         <h1>Jessica Randall</h1>
         <h4>London, United Kingdom</h4>
         <p>"Front-end developer and avid reader."</p>
-        <button type="button">GitHub</button>
-        <button type="button">Frontend Mentor</button>
-        <button type="button">LinkedIn</button>
-        <button type="button">Twitter</button>
-        <button type="button">Instagram</button>
+        <a>GitHub</a>
+        <a>Frontend Mentor</a>
+        <a>LinkedIn</a>
+        <a>Twitter</a>
+        <a>Instagram</a>
       </div>
     </main>
     <div class="attribution">
